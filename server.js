@@ -17,7 +17,7 @@ connectDB()
 const server = http.createServer(app)
 const io = new socketServer(server, {
     cors: {
-        origin: '*, https://portfolio.onrender.com',
+        origin: '*, https://portfolio-drgh.onrender.com',
     }
 })
 
